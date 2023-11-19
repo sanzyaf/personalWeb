@@ -4,6 +4,8 @@ import confetti from 'canvas-confetti';
 const typed = new Typed('#element', {
   strings: ['Frontend Engineer', 'Backend Engineer', 'Tech Savvy Person'],
   typeSpeed: 50,
+  backSpeed: 30,
+  loop: true
 });
 
 
