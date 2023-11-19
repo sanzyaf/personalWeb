@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply bg-blue-400 text-white
+    }
+    h1 {
+        @apply space-y-2
+    }
+}
+
+@layer components {
+    .card {
+        @apply bg-blue-700/50 gap-3 border-1.5 p-6 rounded-xl border-yellow-200 min-h-[150px];
+    }
+    .btn {
+        @apply bg-yellow-400 animate-pulse hover:bg-yellow-200 text-zinc-800 font-semibold border rounded-2xl
+      }
+}
+
